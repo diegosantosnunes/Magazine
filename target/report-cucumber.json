@@ -1,0 +1,95 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-25T22:12:33.949Z",
+        "line": 8,
+        "name": "Acessar a page comra",
+        "description": "",
+        "id": "eu-como-usuario-quero-acessar-o-site-e-realizar-uma-compra;acessar-a-page-comra",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40355934700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "quando eu acessar a page \"https://www.magazineluiza.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.magazineluiza.com.br/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.Teste.quando_eu_acessar_a_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29091652800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicar em um  produto",
+            "match": {
+              "location": "steps.Teste.clicar_em_um_produto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324708300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ser direcionado para a tela de pagamento",
+            "match": {
+              "location": "steps.Teste.ser_direcionado_para_a_tela_de_pagamento()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36041036000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "finalizo a compra no site",
+            "match": {
+              "location": "steps.Teste.finalizo_a_compra_no_site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pesquisa"
+          },
+          {
+            "name": "@pesquisa"
+          }
+        ]
+      }
+    ],
+    "name": "Eu como usuario quero acessar o site e realizar uma compra",
+    "description": "",
+    "id": "eu-como-usuario-quero-acessar-o-site-e-realizar-uma-compra",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/magazinene.feature",
+    "tags": [
+      {
+        "name": "@pesquisa",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
